@@ -1,0 +1,87 @@
+/* form  */
+
+.form-groups {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.form-groups .formFlexDisplay1 {
+  flex: 1;
+}
+.form-groups .formFlexDisplay2 {
+  flex: 1;
+}
+/* 
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+  } */
+
+/* Containing Column  */
+.titleColumn {
+  margin-left: 15rem;
+  margin-top: 7rem;
+  margin-right: 10rem;
+  box-sizing: border-box;
+}
+
+/* Title  */
+.titleHeader {
+  font-size: 3rem;
+  font-weight: 900;
+  word-spacing: 5;
+}
+/* Decoration for all pages, both image and text style  */
+
+#ticketButton {
+  width: 510;
+  background-color: orange;
+  color: white;
+  box-shadow: rgb(71, 71, 71) 1px 1px 1px 1px;
+}
+#row-flex {
+  display: flex;
+  margin-right: 10rem;
+}
+#row-flex .imageBar img {
+  height: 800px;
+  width: 650px;
+}
+#row-flex .titleColumn {
+  flex: 1;
+}
+#row-flex .titleColumn P {
+  font-size: 100%;
+}
+#row-flex .imageBar {
+  margin-top: 0;
+  margin-right: 70;
+  flex: 1;
+}
+
+#row-flex .titleColumn .prcoessingToTicketHeading {
+  margin-top: 15rem;
+}
+
+/* check box  */
+#desTypeCheckBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+#ticketContainer {
+  display: flex;
+  height: max-content;
+  width: 75%;
+  background-color: rgb(247, 240, 236);
+  margin-left: 15rem;
+  margin-top: 3rem;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+
